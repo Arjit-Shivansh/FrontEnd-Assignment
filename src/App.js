@@ -7,7 +7,7 @@ class App extends React.Component {
       <div className="card">
         <div className="container">
           <div className="logo">
-            <img src="sa.jpg" alt="Logo" />
+            <img src="sa.jpeg" alt="Logo" />
           </div>
           <div>next</div>
         </div>
