@@ -1,16 +1,15 @@
 import React from "react";
+import Main from "./Components/MainComponent";
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 
 class App extends React.Component {
   render() {
     return (
-      <div className="card">
-        <div className="container">
-          <div className="logo">
-            <img src="sa.jpeg" alt="Logo" />
-          </div>
-          <div>next</div>
-        </div>
+      <div>
+        <BrowserRouter>
+          <Main />
+        </BrowserRouter>
       </div>
     );
   }
